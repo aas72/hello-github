@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/aas72/hello-github#readme",
   "devDependencies": {
+    "del": "^1.2.0",
     "gulp": "^3.9.0"
   }
 }
