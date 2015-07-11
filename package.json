@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/aas72/hello-github/issues"
   },
-  "homepage": "https://github.com/aas72/hello-github#readme"
+  "homepage": "https://github.com/aas72/hello-github#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  }
 }
