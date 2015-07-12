@@ -1,8 +1,5 @@
 angular
-	.module('templates',[]);
-
-angular
-	.module('helloGithub', ['templates'])
+	.module('helloGithub', [])
 	.controller('helloGithubController', ['$scope', function($scope) {
 		$scope.clickCount = 0;
 

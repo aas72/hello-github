@@ -21,7 +21,7 @@ gulp.task('scripts', ['clean'], function() {
 	var scripts = gulp.src(paths.scripts);
 	var templates = gulp.src(paths.templates)
 		.pipe(minifyHtml())
-		.pipe(templateCache());
+		.pipe(templateCache({module: 'helloGithub'}));
 
 	es.merge(scripts, templates)
 		.pipe(concat('index.js'))
