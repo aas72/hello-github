@@ -1,3 +1,10 @@
-// this is javascript file 1
+angular
+	.module('templates',[]);
 
-alert( "Hello world 1" );
+angular
+	.module('helloGithub', ['templates'])
+	.directive('helloGithub', function() {
+		return {
+			templateUrl: 'test1.html'
+		};
+	});
